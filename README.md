@@ -1,4 +1,20 @@
-# Getting Started with Create React App
+#  Getting Started with Create React App
+
+# How to make update the app
+
+First, download this repo. Then you may need to remove `package-lock.json`, and then run `npm install`.
+
+Next, make your changes to the code. For something basic, change the file `src/App.tsx` for example.
+
+Afterwards, run:
+
+`npm run predeploy`
+
+follwed by:
+
+`npm run deploy`
+
+If you go to the `homepage` address (found in the `package.json` file), you should see the changes you made live on the website/webapp. :rocket
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
